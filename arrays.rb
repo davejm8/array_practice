@@ -20,3 +20,10 @@ puts friends[3]
 puts friends[2]
 
 # The element "heeps" will not appear as the 3rd element was removed.
+
+money.delete(0)
+
+#I have used the delete method do remove 100.00 from money. This command allows you 
+#to delete any element based on its position in the array.
+
+puts money[0]

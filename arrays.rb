@@ -12,3 +12,11 @@ friends.pop
 foes.push(4)
 money.shift
 crazy_people.unshift(true)
+
+# Methods allow you to interact with an array without going back and physicalling editing out the intial
+# variable. For example: Friends will now have 4 elements.
+
+puts friends[3]
+puts friends[2]
+
+# The element "heeps" will not appear as the 3rd element was removed.
